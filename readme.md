@@ -37,7 +37,7 @@ A simple backend project for shortening URLs using **Node.js**, **Express.js**, 
 - **Request Body**:
   ```json
   {
-    "originalUrl": "https://example.com/api/shortener"
+    "originalUrl": "http://localhost:3000/api/shortener"
   }
   ```
 - **Response**:
