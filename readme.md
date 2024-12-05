@@ -12,8 +12,8 @@ A simple backend project for shortening URLs using **Node.js**, **Express.js**, 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/mohsen104/Link-Shortener-Api.git
-   cd Link-Shortener-Api
+   git clone https://github.com/mohsen104/Link-Shortener.git
+   cd Link-Shortener
    ```
 
 2. Install dependencies:
