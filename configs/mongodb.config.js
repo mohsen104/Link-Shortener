@@ -5,7 +5,7 @@ const ConnectedToMongodb = async () => {
         if (mongoose.connections[0].readyState) {
             return;
         }
-        await mongoose.connect("mongodb://localhost:27017/my-server");
+        await mongoose.connect(proccess.env.MONGO_URI);
         console.log('connected to mongodb');
     } catch (error) {
         console.log(error);
