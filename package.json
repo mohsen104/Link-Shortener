@@ -5,7 +5,7 @@
   "main": "main.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon"
+    "start": "node --watch main.js"
   },
   "keywords": [],
   "author": "Mohsen",
